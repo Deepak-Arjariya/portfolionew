@@ -1,5 +1,5 @@
 import React from "react";
-// import Typical from "react-typical";
+import Typical from "react-typical";
 import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
 
@@ -37,7 +37,7 @@ export default function Profile() {
             <span className="primary-text">
               {" "}
               <h1>
-                {/* <Typical
+                <Typical
                   loop={Infinity}
                   steps={[
                     "Enthusiastic Dev 😎",
@@ -51,7 +51,7 @@ export default function Profile() {
                     "React/React Native 🌐",
                     1000,
                   ]}
-                /> */}
+                />
               </h1>
             </span>
             <span className="profile-role-tagline">
